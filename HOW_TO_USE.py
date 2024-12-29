@@ -13,4 +13,6 @@ from pump_fun_sell import sell
 # in utils.py u can find confirm_txn function that checks if tx was successful or not, use it if u need
 
 # also u should know that pf buy/sell funcs send TXs using JITO bundle, so they r faster than usual
-# id u don't need jito, u should modify the code and delete jito logic
+# if u don't need jito, u should modify the code and delete jito logic
+# current slippage is 30, u should set it less, if slippage 5 for example it often gives u unsuccess txs, it's better to use private nodes like helius or quicknode for example
+# test this funcs before use them in ur bots
